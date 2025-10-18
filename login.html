@@ -37,17 +37,17 @@
       const password = loginForm.password.value.trim();
 
       // Staff login
-      if (username === 'Pastoral.Eastbourne' && password === 'Pastoral.Eastbourne.1') {
+      if (username === 'Pastoral.Hiltop' && password === 'Pastoral.Hiltop.1') {
         localStorage.setItem('role', 'staff');
         window.location.href = 'index.html';
       }
       // Admin login
-      else if (username === 'Eastbourne.Admin' && password === '345780URNEADMIN') {
+      else if (username === 'Hiltop.Admin' && password === 'HILTOPAdm1n') {
         localStorage.setItem('role', 'admin');
         window.location.href = 'index.html';
       }
       // Behaviour staff login
-      else if (username === 'Behaviour.Eastbourne' && password === 'Behaviour.Eastbourne.1') {
+      else if (username === 'Behaviour.Hiltop' && password === 'Behaviour.Hiltop.1') {
         localStorage.setItem('role', 'behaviour');
         window.location.href = 'index.html';
       }
@@ -58,3 +58,4 @@
   </script>
 </body>
 </html>
+
